@@ -16,7 +16,7 @@
       <br />
       <div>
         <label for="parola">Parola</label><br />
-        <input type="password" name="Parola" id="parola"required/>
+        <input type="password" name="Parola" id="parola"required minlength="8"/>
       </div>
       <div>
         <label for="">Cinsiyet</label> <br /> <br>
@@ -30,23 +30,29 @@
       <br><br>
       <div>
         <label for="">Hobilerinizi giriniz:</label> <br> <br>
-        <input type="checkbox" name="hobi1" id="At">
+        <input type="checkbox" name="binicilik" id="At">
         <label for="At">Binicilik</label><br>
-        <input type="checkbox" name="hobi1" id="Ok">
+        <input type="checkbox" name="okculuk" id="Ok">
         <label for="Ok">Okculuk</label><br>
-        <input type="checkbox" name="hobi1" id="Balik">
+        <input type="checkbox" name="balikcilik" id="Balik">
         <label for="Balik">Balikcilik</label>
       </div> <br>
     
 
       <div>
         <label for="age">Yas</label>
-        <input type="number" name="Yasiniz" id="age" min="18">
+        <input type="number" name="Yasiniz" id="age" min="18" max="70">
       </div><br><br>
       <div>
         <label for="ara">Search</label>
         <input type="search" name="arandi" id="ara">
+      </div><br>
+
+      <div>
+        <label for="renk">Renk Sec</label>
+        <input type="color" name="secilen Renk" id="reenk">
       </div>
+
       <br /><br />
       <input type="submit" value="Send" />
     </form>
