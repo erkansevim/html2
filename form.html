@@ -128,7 +128,19 @@
       </div><br>
       <div>
         <label for="yorum">Yorum</label>
-        <textarea name="Girilen-Yorum" id="yorum" style="resize: none;" cols="30" rows="10"></textarea>
+        <textarea name="Girilen-Yorum" id="yorum" maxlength="15" placeholder="yorumunuz" style="resize: none;" cols="30" rows="10"></textarea>
+      </div><br>
+      <div>
+        <label for="browser">kullandiginiz Browser</label><br>
+        <input type="text" list="browsers" name="secilen browser">
+        <datalist id="browsers">
+            <option value="chrome"></option>
+            <option value="firefox"></option>
+            <option value="safari"></option>
+        </datalist>
+       
+
+
       </div>
       <br /><br />
       <input type="submit" value="Send" />
